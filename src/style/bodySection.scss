@@ -1,0 +1,95 @@
+.body-section {
+  position: relative;
+  width: 100%;
+}
+
+.section-container {
+  width: 230px; // Adjusted to fit screen width
+  background: rgba(106, 69, 255, 1);
+  height: 750px;
+  display: block;
+  margin: 0 auto;
+}
+
+.section-content-title {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 43.5%;
+}
+.section-container-content1 {
+  font-size: 40px;
+  top: 20px;
+  font-weight: 600;
+  line-height: 24px; // Adjusted line height to match the design
+  letter-spacing: 0.3em;
+  text-align: center;
+}
+
+.section-container-content2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  line-height: 38px;
+  letter-spacing: 0.3em;
+  text-align: center;
+}
+
+.image-container1 {
+  display: flex;
+  position: absolute;
+  top: 40%;
+}
+
+.image-wrapper {
+  position: relative;
+  flex: 1;
+}
+
+.imagee {
+  width: 100%; // Adjusted to fit container width
+  height: 300px; // Adjust height as needed
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  // background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.content-1 {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.3em;
+  text-align: center;
+}
+.content-2 {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  //line-height: 52px;
+  letter-spacing: 0.3em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.content-3 {
+  width: 234px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-align: center;
+}

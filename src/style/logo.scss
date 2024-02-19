@@ -1,0 +1,62 @@
+$triangle-color-1: #ff0000;
+$triangle-color-2: #00ff00;
+$triangle-color-3: #0000ff;
+$triangle-color-4: #ffff00;
+
+.logo-container5 {
+  padding: 60px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  animation: rotateLogo 5s infinite;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.triangle-1 {
+  top: 0;
+  left: 0;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid $triangle-color-1;
+}
+
+.triangle-2 {
+  top: 0;
+  right: 0;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid $triangle-color-2;
+}
+
+.triangle-3 {
+  bottom: 0;
+  left: 0;
+  border-left: 100px solid transparent;
+  border-top: 100px solid $triangle-color-3;
+}
+
+.triangle-4 {
+  bottom: 0;
+  right: 0;
+  border-right: 100px solid transparent;
+  border-top: 100px solid $triangle-color-4;
+}
+
+@keyframes rotateLogo {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(360deg) scale(1.5);
+  }
+  100% {
+    transform: rotate(720deg) scale(1);
+  }
+}
